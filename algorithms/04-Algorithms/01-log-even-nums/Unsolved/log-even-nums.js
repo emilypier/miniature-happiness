@@ -4,6 +4,7 @@
 var logEvenNums = function(num) {
   //loop through numbers
   for (var i = 0; i <= num; i++) {
+    // if divisible by 2 with no remainders
     if(i % 2 === 0) {
       console.log(i);
     }
