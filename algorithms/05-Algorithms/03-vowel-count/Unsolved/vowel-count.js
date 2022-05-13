@@ -18,6 +18,10 @@ var vowelCount = function(str) {
 
 
 // FROM   https://www.freecodecamp.org/news/javascript-split-how-to-split-a-string-into-an-array-in-js/  
+// One fact about strings in JavaScript is that we can
+// access the characters in a string using its index.
+// The index of the first character is 0, and it increments by 1.
+
 // let str = "Yes, You Can Do It!";
 
 // console.log(str[0]); // Y
