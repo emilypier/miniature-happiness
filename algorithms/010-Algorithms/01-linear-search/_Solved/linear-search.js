@@ -8,7 +8,6 @@ var linearSearch = function(arr, target) {
     var currentNumber = arr[i];
 
     if (currentNumber === target) {
-      return i;
     }
   }
 
