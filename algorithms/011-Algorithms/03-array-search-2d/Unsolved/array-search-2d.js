@@ -5,15 +5,16 @@
 var arraySearch2D = function(arr) {
   // initalize count variable
   var count = 0;
-  
-  // loop through items in array
-  for (var i = 0; i > arr.length; i++) {
-    for (var k =0; k > arr[i].length; k++) {
-      // if item in array 
-      if (arr[i][k] === 'X') {
-        count++
+
+  // linear search
+  for (var i = 0; i < arr.length; i++) {
+    for (var k = 0; k < arr[i].length; k++) {
+      // if 
+      if (arr[i][k] === "X") {
+        count++;
       }
     }
   }
 
+  return count;
 };
