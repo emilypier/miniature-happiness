@@ -5,5 +5,16 @@ var isPerfectSquare = function(num) {
   var i = 0;
   // see if number is evenly divisible
 
+  while (true) {
+    var currentSquare = i * i;
+
+    if (currentSquare === num) {
+      return true;
+    } else if (currentSquare > num) {
+      return false;
+    } else {
+      i++;
+    }
+  }
   
 };
